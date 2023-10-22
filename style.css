@@ -1,12 +1,87 @@
 body {
+    margin: 0;
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    font-family: 'roboto';
+}
 
+.sign-up-button {
+    color: white;
+    background-color: #3882F6;
+    border-radius: 2px;
+    width: 80px;
+    text-align: center;
 }
 
 .top {
     flex: 1;
+    display: flex;
+    flex-direction: column;
     background-color: #1F2937;
+    padding: 0 80px;
+}
+
+.top .header {
+    display: flex;
+    color: #E5E7EB;
+    height: 50px;
+    align-items: center;
+    gap: 16px;
+    margin: 0 50px 50px 50px;
+}
+
+.top .header .header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.top .header .header-link-1 {
+    margin-left: auto;
+}
+
+.top .top-content {
+    display: flex;
+    margin: 0 50px 50px 50px;
+}
+
+.top-content .top-content-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-size: 18px;
+}
+
+.top-content .top-content-left .title {
+    margin: 0;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+    line-height: .75;
+}
+
+.top-content .top-content-left .text {
+    font-size: 18px;
+    color: #F9FAF8;
+    margin: 5px 0 0 0;
+}
+
+.top-content .top-content-left div{
+    margin-top: 10px;
+}
+
+.top-content .top-content-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    width: 50%;
+
+}
+
+.top-content .top-content-right img {
+    width: 259px;
+    height: auto;
 }
 
 .top-mid {
@@ -25,5 +100,6 @@ body {
 }
 
 .footer {
+    height: 50px;
     background-color: #1F2937;
 }
