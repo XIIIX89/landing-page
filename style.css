@@ -80,14 +80,51 @@ body {
 }
 
 .top-content .top-content-right img {
-    width: 259px;
+    margin-left: auto;
+    width: 300px;
     height: auto;
+    border-radius: 10px;
 }
 
 .top-mid {
     flex: 1;
     background-color: white;
+    text-align: center;
+    padding: 20px 0 0 0;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
 }
+
+.top-mid .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 20px 0;
+
+
+}
+
+.top-mid .content .info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    color: #808080;
+    max-width: 110px;
+    margin-bottom: 10px;
+}
+
+.top-mid .content .info img{
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+    max-width: 110px;
+}
+
 
 .bottom-mid {
     flex: 1;
