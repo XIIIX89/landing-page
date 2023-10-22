@@ -1,1 +1,29 @@
-/*initil commit for project*/
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.top {
+    flex: 1;
+    background-color: #1F2937;
+}
+
+.top-mid {
+    flex: 1;
+    background-color: white;
+}
+
+.bottom-mid {
+    flex: 1;
+    background-color: #E5E7EB;
+}
+
+.bottom {
+    flex: 1;
+    background-color: white;
+}
+
+.footer {
+    background-color: #1F2937;
+}
