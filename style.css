@@ -128,15 +128,97 @@ body {
 
 .bottom-mid {
     flex: 1;
+    display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
+    align-items: center;
+    padding: 0 50px;
+    gap: 0;
+    
+}
+
+.bottom-mid .quote-text {
+    font-size: 36px;
+    color: #2c3a4e;
+    font-style: italic;
+    font-weight: 100;
+    margin: 50px 50px 0 50px;
+}
+
+.bottom-mid .quote {
+    font-weight: 700;
+    margin: 0 50px 50px auto;
+
 }
 
 .bottom {
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
+    margin: 100 px;
+    margin: 0;
+    padding: 0;
+}
+
+.bottom .modal {
+    margin: 0;
+    display: flex;
+    height: 100px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.bottom .modal .modal-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #3882F6;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 16px;
+    flex-wrap: wrap;
+
+}
+
+.bottom .modal .modal-left .title {
+    color: white;
+    font-weight: 700;
+}
+
+.bottom .modal .modal-left .text {
+    color: white;
+}
+
+.bottom .modal .modal-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #3882F6;
+}
+
+.bottom .modal .modal-right .sign-up-button {
+    flex: 1;
+    color: white;
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 2px;
+    text-align: center;
+    max-width: 80px;
+    margin: auto;
 }
 
 .footer {
-    height: 50px;
+    color: lightgrey;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
     background-color: #1F2937;
 }
